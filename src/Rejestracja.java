@@ -100,7 +100,9 @@ public class Rejestracja {
                 return;
             }
             out.println(typ);
- //           out.close();
+            MainMenu menu= new MainMenu(socket);
+            out.flush();
+            menu.go(frame);
         }
         catch (Exception exc)
         {
