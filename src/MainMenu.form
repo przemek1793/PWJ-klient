@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainMenu">
+  <grid id="27dc6" binding="MenuM" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="1" left="3" bottom="1" right="3"/>
+    <constraints>
+      <xy x="257" y="160" width="413" height="262"/>
+    </constraints>
+    <properties>
+      <background color="-8137742"/>
+    </properties>
+    <border type="etched" title="PWJ - Grafik zajec" title-justification="2" title-position="2">
+      <title-color color="-16777216"/>
+    </border>
+    <children>
+      <component id="6d00b" class="javax.swing.JButton" binding="Rejestracja">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rejestracja"/>
+        </properties>
+      </component>
+      <component id="42699" class="javax.swing.JButton" binding="Logowanie">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Logowanie"/>
+        </properties>
+      </component>
+      <component id="8af38" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Witamy w grafiku zajęć"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
