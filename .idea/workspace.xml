@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c06a9a0-ee56-44d1-925d-7b2c889f4152" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Rejestracja.form" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Rejestracja.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Klient.java" afterPath="$PROJECT_DIR$/src/Klient.java" />
-      <change beforePath="$PROJECT_DIR$/src/MainMenu.form" afterPath="$PROJECT_DIR$/src/MainMenu.form" />
-      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" afterPath="$PROJECT_DIR$/src/MainMenu.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/Rejestracja.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/Rejestracja.class" />
+      <change beforePath="$PROJECT_DIR$/src/Rejestracja.form" afterPath="$PROJECT_DIR$/src/Rejestracja.form" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rejestracja.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rejestracja.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -76,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rejestracja.form" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Rejestracja.form" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rejestracja.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
@@ -106,10 +103,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/aa.form" />
         <option value="$PROJECT_DIR$/src/MainMenu.form" />
-        <option value="$PROJECT_DIR$/src/Rejestracja.form" />
         <option value="$PROJECT_DIR$/src/Klient.java" />
         <option value="$PROJECT_DIR$/src/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/Rejestracja.java" />
+        <option value="$PROJECT_DIR$/src/Rejestracja.form" />
       </list>
     </option>
   </component>
@@ -480,11 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rejestracja.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainMenu.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -524,6 +516,11 @@
           <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rejestracja.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
   </component>

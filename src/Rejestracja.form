@@ -157,4 +157,11 @@
       </component>
     </children>
   </grid>
+  <buttonGroups>
+    <group name="TypUzytkownika">
+      <member id="4a826"/>
+      <member id="eecf4"/>
+      <member id="767a1"/>
+    </group>
+  </buttonGroups>
 </form>
