@@ -18,6 +18,7 @@ public class Rejestracja {
     private JLabel Rejestrajca;
     private JButton Rejestruj;
     private JButton Wstecz;
+    private JTextField Komunikat;
     static private JFrame frame;
     public Socket socket;
 
@@ -33,16 +34,7 @@ public class Rejestracja {
         Rejestruj.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                try
-                {
-                    PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
-                    out.println("rejestracja");
-                    out.close();
-                }
-                catch (Exception exc)
-                {
-                    exc.printStackTrace();
-                }
+                rejestruj();
             }
         });
     }
@@ -52,5 +44,30 @@ public class Rejestracja {
         frame.setTitle("Rejestracja");
         frame.setContentPane(new Rejestracja(socket).Rejestracja);
         frame.pack();
+    }
+
+    public void rejestruj()
+    {
+        try
+        {
+            PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+            out.println("rejestracja");
+            String login=LoginPole.getText();
+            if (login.equals(""))
+            {
+                Komunikat.setText("pusty");
+                System.out.println("pusty");
+            }
+            else
+            {
+                Komunikat.setText(login);
+                System.out.println(login);
+            }
+ //           out.close();
+        }
+        catch (Exception exc)
+        {
+            exc.printStackTrace();
+        }
     }
 }

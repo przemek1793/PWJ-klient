@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c06a9a0-ee56-44d1-925d-7b2c889f4152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Rejestracja.form" afterPath="$PROJECT_DIR$/src/Rejestracja.form" />
+      <change beforePath="$PROJECT_DIR$/src/Rejestracja.java" afterPath="$PROJECT_DIR$/src/Rejestracja.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/Klient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="91" />
+              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,19 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rejestracja.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rejestracja.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
+                <element signature="e#1203#1204#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rejestracja.form" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Rejestracja.form" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rejestracja.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
@@ -93,14 +96,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/aa.form" />
         <option value="$PROJECT_DIR$/src/MainMenu.form" />
-        <option value="$PROJECT_DIR$/src/Rejestracja.form" />
         <option value="$PROJECT_DIR$/src/Klient.java" />
         <option value="$PROJECT_DIR$/src/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/Rejestracja.java" />
+        <option value="$PROJECT_DIR$/src/Rejestracja.form" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="84" />
     <option name="y" value="5" />
     <option name="width" value="1288" />
@@ -334,7 +337,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -454,14 +457,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rejestracja.form">
+    <entry file="file://$PROJECT_DIR$/src/MainMenu.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainMenu.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/Klient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
@@ -474,24 +482,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Klient.java">
+    <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="91" />
+        <state relative-caret-position="136">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/Rejestracja.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
   </component>
