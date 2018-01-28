@@ -17,7 +17,7 @@ public class Klient
         }
         catch (IOException ex)
         {
-            System.out.println("Problem z połączeniem się z bazą");
+            System.out.println("Problem z połączeniem się z serwerem");
         }
     }
 }
