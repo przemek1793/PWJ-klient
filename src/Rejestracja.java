@@ -55,13 +55,32 @@ public class Rejestracja {
             String login=LoginPole.getText();
             if (login.equals(""))
             {
-                Komunikat.setText("pusty");
-                System.out.println("pusty");
+                Komunikat.setText("Pole Login jest puste");
+                return;
             }
-            else
+            String haslo=HasłoPole.getText();
+            if (haslo.equals(""))
             {
-                Komunikat.setText(login);
-                System.out.println(login);
+                Komunikat.setText("Pole Hasło jest puste");
+                return;
+            }
+            String Imie=ImięPole.getText();
+            if (Imie.equals(""))
+            {
+                Komunikat.setText("Pole Imię jest puste");
+                return;
+            }
+            String Nazwisko=NazwiskoPole.getText();
+            if (Nazwisko.equals(""))
+            {
+                Komunikat.setText("Pole Nazwisko jest puste");
+                return;
+            }
+            String email=EmailPole.getText();
+            if (email.equals(""))
+            {
+                Komunikat.setText("Pole Email jest puste");
+                return;
             }
  //           out.close();
         }
