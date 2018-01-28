@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.Socket;
 
 public class Rejestracja {
     private JPanel Rejestracja;
@@ -16,13 +17,21 @@ public class Rejestracja {
     private JButton Rejestruj;
     private JButton Wstecz;
     static private JFrame frame;
+    public Socket socket;
 
-    public Rejestracja() {
+    public Rejestracja(Socket s) {
+        socket=s;
         Wstecz.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                MainMenu menu= new MainMenu();
+                MainMenu menu= new MainMenu(socket);
                 menu.go(frame);
+            }
+        });
+        Rejestruj.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
             }
         });
     }
@@ -30,7 +39,7 @@ public class Rejestracja {
     public void go(JFrame frame1) {
         frame=frame1;
         frame.setTitle("Rejestracja");
-        frame.setContentPane(new Rejestracja().Rejestracja);
+        frame.setContentPane(new Rejestracja(socket).Rejestracja);
         frame.pack();
     }
 }
