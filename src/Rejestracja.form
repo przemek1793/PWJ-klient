@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Rejestracja">
-  <grid id="27dc6" binding="Rejestracja" layout-manager="GridLayoutManager" row-count="14" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="Rejestracja" layout-manager="GridLayoutManager" row-count="15" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="1" left="3" bottom="1" right="3"/>
     <constraints>
-      <xy x="20" y="20" width="506" height="407"/>
+      <xy x="20" y="20" width="506" height="436"/>
     </constraints>
     <properties>
       <background color="-3804485"/>
@@ -153,6 +153,15 @@
         <properties>
           <background color="-1856618"/>
           <text value="Prowadzący zajęcia"/>
+        </properties>
+      </component>
+      <component id="d760a" class="javax.swing.JButton" binding="Wstecz">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+          <text value="Wstecz"/>
         </properties>
       </component>
     </children>

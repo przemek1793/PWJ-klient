@@ -25,4 +25,13 @@ public class MainMenu {
         frame.pack();
         frame.setVisible(true);
     }
+
+    public void go(JFrame frame1) {
+        frame=frame1;
+        frame.setTitle("PWJ-grafik zajęć");
+        frame.setContentPane(new MainMenu().MenuM);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
+    }
 }
