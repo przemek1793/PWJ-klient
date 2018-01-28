@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.net.Socket;
 
 public class Rejestracja {
@@ -31,7 +33,16 @@ public class Rejestracja {
         Rejestruj.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                try
+                {
+                    PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+                    out.println("rejestracja");
+                    out.close();
+                }
+                catch (Exception exc)
+                {
+                    exc.printStackTrace();
+                }
             }
         });
     }
