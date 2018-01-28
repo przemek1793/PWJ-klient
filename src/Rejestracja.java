@@ -58,30 +58,48 @@ public class Rejestracja {
                 Komunikat.setText("Pole Login jest puste");
                 return;
             }
+            out.println(login);
             String haslo=HasłoPole.getText();
             if (haslo.equals(""))
             {
                 Komunikat.setText("Pole Hasło jest puste");
                 return;
             }
+            out.println(haslo);
             String Imie=ImięPole.getText();
             if (Imie.equals(""))
             {
                 Komunikat.setText("Pole Imię jest puste");
                 return;
             }
+            out.println(Imie);
             String Nazwisko=NazwiskoPole.getText();
             if (Nazwisko.equals(""))
             {
                 Komunikat.setText("Pole Nazwisko jest puste");
                 return;
             }
+            out.println(Nazwisko);
             String email=EmailPole.getText();
             if (email.equals(""))
             {
                 Komunikat.setText("Pole Email jest puste");
                 return;
             }
+            out.println(email);
+            String typ="";
+            if (radioAdministrator.isSelected())
+                typ=radioAdministrator.getText();
+            if (radioProwadzący.isSelected())
+                typ=radioProwadzący.getText();
+            if (radioStudent.isSelected())
+                typ=radioStudent.getText();
+            if (typ.equals(""))
+            {
+                Komunikat.setText("Nie wybrano typu użytkownika");
+                return;
+            }
+            out.println(typ);
  //           out.close();
         }
         catch (Exception exc)
