@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.net.Socket;
 
 public class MenuProwadzacy {
@@ -18,6 +20,16 @@ public class MenuProwadzacy {
         Wyloguj.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                try
+                {
+                    PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+                    out.println("wylogowanie");
+                    out.flush();
+                }
+                catch (Exception e1)
+                {
+                    e1.printStackTrace();
+                }
                 MainMenu menu= new MainMenu(socket);
                 menu.go(frame);
             }
