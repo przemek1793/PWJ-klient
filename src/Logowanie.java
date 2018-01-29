@@ -66,8 +66,22 @@ public class Logowanie {
             String odpowiedz=in.readLine();
             if (odpowiedz.equals("poprawne"))
             {
-                MainMenu menu= new MainMenu(socket); //zamień potem menu na to na co ma przechodzić
-                menu.go(frame);
+                String typ = in.readLine();
+                if (typ.equals("student"))
+                {
+                    MenuStudent student = new MenuStudent(socket);
+                    student.go(frame);
+                }
+                if (typ.equals("prowadzacy"))
+                {
+                    MenuProwadzacy prowadzacy = new MenuProwadzacy(socket);
+                    prowadzacy.go(frame);
+                }
+                if (typ.equals("administrator"))
+                {
+                    MenuAdmin admin = new MenuAdmin(socket);
+                    admin.go(frame);
+                }
             }
             else
             {
