@@ -46,7 +46,7 @@ public class Rejestracja {
         frame.pack();
     }
 
-    public void rejestruj()
+    private void rejestruj()
     {
         try
         {
