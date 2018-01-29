@@ -19,6 +19,13 @@ public class MainMenu {
                 rej.go(frame);
             }
         });
+        Logowanie.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Logowanie log = new Logowanie(socket);
+                log.go(frame);
+            }
+        });
     }
 
     public void go() {
