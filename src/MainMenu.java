@@ -7,6 +7,7 @@ public class MainMenu {
     private JButton Rejestracja;
     private JPanel MenuM;
     private JButton Logowanie;
+    private JButton Przypomnienie;
     static private JFrame frame;
     public Socket socket;
 
@@ -24,6 +25,13 @@ public class MainMenu {
             public void actionPerformed(ActionEvent e) {
                 Logowanie log = new Logowanie(socket);
                 log.go(frame);
+            }
+        });
+        Przypomnienie.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                PrzypomnijHaslo przyp = new PrzypomnijHaslo(socket);
+                przyp.go(frame);
             }
         });
     }

@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c06a9a0-ee56-44d1-925d-7b2c889f4152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MenuAdmin.java" afterPath="$PROJECT_DIR$/src/MenuAdmin.java" />
-      <change beforePath="$PROJECT_DIR$/src/MenuProwadzacy.java" afterPath="$PROJECT_DIR$/src/MenuProwadzacy.java" />
-      <change beforePath="$PROJECT_DIR$/src/MenuStudent.java" afterPath="$PROJECT_DIR$/src/MenuStudent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/PrzypomnijHaslo.form" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/PrzypomnijHaslo.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/MainMenu$1.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/MainMenu$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/MainMenu$2.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/MainMenu$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/MainMenu.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/MainMenu.class" />
+      <change beforePath="$PROJECT_DIR$/src/MainMenu.form" afterPath="$PROJECT_DIR$/src/MainMenu.form" />
+      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" afterPath="$PROJECT_DIR$/src/MainMenu.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="340">
+              <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rejestracja.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
+      <file leaf-file-name="PrzypomnijHaslo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PrzypomnijHaslo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="54" column="45" lean-forward="true" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+            <state relative-caret-position="357">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +51,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Logowanie.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrzypomnijHaslo.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PrzypomnijHaslo.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logowanie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Logowanie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+            <state relative-caret-position="125">
+              <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#953#954#0" expanded="true" />
@@ -67,15 +79,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuStudent.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MenuStudent.form">
+      <file leaf-file-name="Logowanie.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Logowanie.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuAdmin.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MenuAdmin.form">
+      <file leaf-file-name="MenuStudent.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MenuStudent.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
@@ -117,13 +129,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuProwadzacy.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -148,10 +153,8 @@
         <option value="$PROJECT_DIR$/src/aa.form" />
         <option value="$PROJECT_DIR$/src/Klient.java" />
         <option value="$PROJECT_DIR$/src/Rejestracja.form" />
-        <option value="$PROJECT_DIR$/src/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/Logowanie.form" />
         <option value="$PROJECT_DIR$/src/Rejestracja.java" />
-        <option value="$PROJECT_DIR$/src/MainMenu.form" />
         <option value="$PROJECT_DIR$/src/MenuAdmin.form" />
         <option value="$PROJECT_DIR$/src/MenuStudent.form" />
         <option value="$PROJECT_DIR$/src/MenuProwadzacy.form" />
@@ -159,6 +162,10 @@
         <option value="$PROJECT_DIR$/src/MenuAdmin.java" />
         <option value="$PROJECT_DIR$/src/MenuProwadzacy.java" />
         <option value="$PROJECT_DIR$/src/MenuStudent.java" />
+        <option value="$PROJECT_DIR$/src/MainMenu.form" />
+        <option value="$PROJECT_DIR$/src/PrzypomnijHaslo.form" />
+        <option value="$PROJECT_DIR$/src/PrzypomnijHaslo.java" />
+        <option value="$PROJECT_DIR$/src/MainMenu.java" />
       </list>
     </option>
   </component>
@@ -243,6 +250,12 @@
               <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="MenuStudent" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PrzypomnijHaslo" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
@@ -469,14 +482,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Logowanie.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
@@ -603,11 +608,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logowanie.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ManuZalogowany.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -626,16 +626,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="669">
@@ -644,16 +634,6 @@
             <element signature="imports" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainMenu.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuStudent.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuAdmin.form">
@@ -691,14 +671,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuStudent.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logowanie.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Logowanie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+        <state relative-caret-position="125">
+          <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#953#954#0" expanded="true" />
             <element signature="e#992#993#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrzypomnijHaslo.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrzypomnijHaslo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainMenu.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
