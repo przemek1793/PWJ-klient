@@ -38,7 +38,7 @@ public class MainMenu {
 
     public void go() {
         frame = new JFrame("PWJ-grafik zajęć");
-        frame.setContentPane(new MainMenu(socket).MenuM);
+        frame.setContentPane(this.MenuM);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
@@ -47,7 +47,7 @@ public class MainMenu {
     public void go(JFrame frame1) {
         frame=frame1;
         frame.setTitle("PWJ-grafik zajęć");
-        frame.setContentPane(new MainMenu(socket).MenuM);
+        frame.setContentPane(this.MenuM);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);

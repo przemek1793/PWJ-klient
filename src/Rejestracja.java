@@ -44,7 +44,7 @@ public class Rejestracja {
     public void go(JFrame frame1) {
         frame=frame1;
         frame.setTitle("Rejestracja");
-        frame.setContentPane(new Rejestracja(socket).Rejestracja);
+        frame.setContentPane(this.Rejestracja);
         frame.pack();
     }
 

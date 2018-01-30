@@ -45,7 +45,7 @@ public class MenuAdmin {
     public void go(JFrame frame1) {
         frame=frame1;
         frame.setTitle("Administrator");
-        frame.setContentPane(new MenuAdmin(socket).MenuAd);
+        frame.setContentPane(this.MenuAd);
         frame.pack();
     }
 

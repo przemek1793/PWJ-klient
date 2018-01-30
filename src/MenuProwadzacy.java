@@ -46,7 +46,7 @@ public class MenuProwadzacy {
     public void go(JFrame frame1) {
         frame = frame1;
         frame.setTitle("Prowadzący");
-        frame.setContentPane(new MenuProwadzacy(socket).MenuPR);
+        frame.setContentPane(this.MenuPR);
         frame.pack();
     }
 }

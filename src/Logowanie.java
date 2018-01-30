@@ -37,7 +37,7 @@ public class Logowanie {
     public void go(JFrame frame1) {
         frame=frame1;
         frame.setTitle("Logowanie");
-        frame.setContentPane(new Logowanie(socket).Logowanie);
+        frame.setContentPane(this.Logowanie);
         frame.pack();
     }
 

@@ -46,7 +46,7 @@ public class MenuStudent {
     public void go(JFrame frame1) {
         frame = frame1;
         frame.setTitle("Student");
-        frame.setContentPane(new MenuStudent(socket).MenuSt);
+        frame.setContentPane(this.MenuSt);
         frame.pack();
     }
 }

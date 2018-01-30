@@ -36,7 +36,7 @@ public class PrzypomnijHaslo {
     public void go(JFrame frame1) {
         frame=frame1;
         frame.setTitle("Przypominanie hasła");
-        frame.setContentPane(new PrzypomnijHaslo(socket).Przypomnienie);
+        frame.setContentPane(this.Przypomnienie);
         frame.pack();
     }
 
