@@ -14,9 +14,6 @@ public class ZmienDane {
     private JTextField ImiePole;
     private JTextField NazwiskoPole;
     private JTextField EmailPole;
-    private JRadioButton radioStudent;
-    private JRadioButton radioProwadzacy;
-    private JRadioButton radioAdministrator;
     private JLabel Komunikat;
     private JButton Zmiana;
     private JButton Wstecz;
@@ -30,16 +27,6 @@ public class ZmienDane {
         Wstecz.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                try
-                {
-                    PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
-                    out.println("koniec");
-                    out.flush();
-                }
-                catch (Exception e1)
-                {
-                    e1.printStackTrace();
-                }
                 if (typ.equals("student"))
                 {
                     MenuStudent st = new MenuStudent(socket);
@@ -91,18 +78,6 @@ public class ZmienDane {
             ImiePole.setText(in.readLine());
             NazwiskoPole.setText(in.readLine());
             EmailPole.setText(in.readLine());
-            if (typ.equals("student"))
-            {
-                radioStudent.setSelected(true);
-            }
-            else if (typ.equals("prowadzacy"))
-            {
-                radioProwadzacy.setSelected(true);
-            }
-            else if (typ.equals("admin"))
-            {
-                radioAdministrator.setSelected(true);
-            }
             frame.setVisible(true);
         }
         catch (Exception e)
@@ -113,5 +88,69 @@ public class ZmienDane {
 
     private void zmienDane ()
     {
+        try
+        {
+            PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+            String login=LoginPole.getText();
+            out.println("zmiana");
+            if (login.equals(""))
+            {
+                Komunikat.setText("Pole Login jest puste");
+                return;
+            }
+            out.println(login);
+            String haslo=HasłoPole.getText();
+            if (haslo.equals(""))
+            {
+                Komunikat.setText("Pole Hasło jest puste");
+                return;
+            }
+            out.println(haslo);
+            String Imie=ImiePole.getText();
+            if (Imie.equals(""))
+            {
+                Komunikat.setText("Pole Imię jest puste");
+                return;
+            }
+            out.println(Imie);
+            String Nazwisko=NazwiskoPole.getText();
+            if (Nazwisko.equals(""))
+            {
+                Komunikat.setText("Pole Nazwisko jest puste");
+                return;
+            }
+            out.println(Nazwisko);
+            String email=EmailPole.getText();
+            if (email.equals(""))
+            {
+                Komunikat.setText("Pole Email jest puste");
+                return;
+            }
+            if (!email.contains("@") || !email.contains("."))
+            {
+                Komunikat.setText("Niepoprawny adres email");
+                return;
+            }
+            out.println(email);
+            out.flush();
+            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            String odpowiedz=in.readLine();
+            if (odpowiedz.equals("ok"))
+            {
+                Komunikat.setText("Zmieniono dane");
+            }
+            if (odpowiedz.equals("bledne"))
+            {
+                Komunikat.setText("Nie zmieniono danych");
+            }
+            if (odpowiedz.equals("duplikat"))
+            {
+                Komunikat.setText("Podany login lub email już znajdują się w naszej bazie danych");
+            }
+        }
+        catch (Exception exc)
+        {
+            exc.printStackTrace();
+        }
     }
 }

@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2c06a9a0-ee56-44d1-925d-7b2c889f4152" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/ZmienDane$1.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/ZmienDane$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/ZmienDane.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/ZmienDane.class" />
-      <change beforePath="$PROJECT_DIR$/src/Logowanie.java" afterPath="$PROJECT_DIR$/src/Logowanie.java" />
-      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" afterPath="$PROJECT_DIR$/src/MainMenu.java" />
-      <change beforePath="$PROJECT_DIR$/src/MenuAdmin.java" afterPath="$PROJECT_DIR$/src/MenuAdmin.java" />
-      <change beforePath="$PROJECT_DIR$/src/MenuProwadzacy.java" afterPath="$PROJECT_DIR$/src/MenuProwadzacy.java" />
-      <change beforePath="$PROJECT_DIR$/src/MenuStudent.java" afterPath="$PROJECT_DIR$/src/MenuStudent.java" />
-      <change beforePath="$PROJECT_DIR$/src/PrzypomnijHaslo.java" afterPath="$PROJECT_DIR$/src/PrzypomnijHaslo.java" />
       <change beforePath="$PROJECT_DIR$/src/Rejestracja.java" afterPath="$PROJECT_DIR$/src/Rejestracja.java" />
+      <change beforePath="$PROJECT_DIR$/src/ZmienDane.form" afterPath="$PROJECT_DIR$/src/ZmienDane.form" />
       <change beforePath="$PROJECT_DIR$/src/ZmienDane.java" afterPath="$PROJECT_DIR$/src/ZmienDane.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,8 +56,8 @@
       <file leaf-file-name="Rejestracja.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+            <state relative-caret-position="431">
+              <caret line="108" column="29" lean-forward="false" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -80,15 +73,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZmienDane.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ZmienDane.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ZmienDane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="76" column="22" lean-forward="false" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+            <state relative-caret-position="-623">
+              <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2190#2191#0" expanded="true" />
-                <element signature="e#2233#2234#0" expanded="true" />
+                <element signature="e#1712#1713#0" expanded="true" />
+                <element signature="e#1755#1756#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,25 +97,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
               <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JFrame.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/JFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="696" column="16" lean-forward="false" selection-start-line="696" selection-start-column="16" selection-end-line="696" selection-end-column="16" />
-              <folding>
-                <element signature="e#24496#24497#0" expanded="true" />
-                <element signature="e#24553#24554#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -169,8 +149,6 @@
         <option value="$PROJECT_DIR$/src/MainMenu.form" />
         <option value="$PROJECT_DIR$/src/PrzypomnijHaslo.form" />
         <option value="$PROJECT_DIR$/src/Rejestracja.form" />
-        <option value="$PROJECT_DIR$/src/ZmienDane.form" />
-        <option value="$PROJECT_DIR$/src/ZmienDane.java" />
         <option value="$PROJECT_DIR$/src/Logowanie.java" />
         <option value="$PROJECT_DIR$/src/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/MenuAdmin.java" />
@@ -178,6 +156,8 @@
         <option value="$PROJECT_DIR$/src/MenuStudent.java" />
         <option value="$PROJECT_DIR$/src/PrzypomnijHaslo.java" />
         <option value="$PROJECT_DIR$/src/Rejestracja.java" />
+        <option value="$PROJECT_DIR$/src/ZmienDane.form" />
+        <option value="$PROJECT_DIR$/src/ZmienDane.java" />
       </list>
     </option>
   </component>
@@ -706,38 +686,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZmienDane.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/JFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="696" column="16" lean-forward="false" selection-start-line="696" selection-start-column="16" selection-end-line="696" selection-end-column="16" />
-          <folding>
-            <element signature="e#24496#24497#0" expanded="true" />
-            <element signature="e#24553#24554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logowanie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -772,21 +720,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        <state relative-caret-position="431">
+          <caret line="108" column="29" lean-forward="false" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZmienDane.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logowanie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ZmienDane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="76" column="22" lean-forward="false" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        <state relative-caret-position="-623">
+          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2190#2191#0" expanded="true" />
-            <element signature="e#2233#2234#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="696" column="16" lean-forward="false" selection-start-line="696" selection-start-column="16" selection-end-line="696" selection-end-column="16" />
+          <folding>
+            <element signature="e#24496#24497#0" expanded="true" />
+            <element signature="e#24553#24554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

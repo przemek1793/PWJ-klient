@@ -107,7 +107,6 @@ public class Rejestracja {
                 return;
             }
             out.println(typ);
-            MainMenu menu= new MainMenu(socket);
             out.flush();
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             String odpowiedz=in.readLine();
