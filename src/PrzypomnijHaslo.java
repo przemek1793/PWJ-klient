@@ -60,9 +60,13 @@ public class PrzypomnijHaslo {
             {
                 Komunikat.setText("Wysłano email z hasłem na podany adres");
             }
-            else
+            if (odpowiedz.equals("bledne"))
             {
                 Komunikat.setText("Brak podanego adresu email w bazie danych");
+            }
+            if (odpowiedz.equals("zły email"))
+            {
+                Komunikat.setText("Błąd przy wysyłaniu wiadomości na podany adres");
             }
         }
         catch (Exception e)
