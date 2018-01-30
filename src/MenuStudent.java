@@ -37,17 +37,7 @@ public class MenuStudent {
             @Override
             public void actionPerformed(ActionEvent e)
             {
-                try
-                {
-                    PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
-                    out.println("zmiana_danych");
-                    out.flush();
-                }
-                catch (Exception e1)
-                {
-                    e1.printStackTrace();
-                }
-                ZmienDane zmiana= new ZmienDane(socket);
+                ZmienDane zmiana= new ZmienDane(socket, "student");
                 zmiana.go(frame);
             }
         });
