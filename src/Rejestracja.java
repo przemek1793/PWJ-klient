@@ -20,7 +20,7 @@ public class Rejestracja {
     private JLabel Rejestrajca;
     private JButton Rejestruj;
     private JButton Wstecz;
-    private JTextField Komunikat;
+    private JLabel Komunikat;
     static private JFrame frame;
     public Socket socket;
 
@@ -86,6 +86,11 @@ public class Rejestracja {
             if (email.equals(""))
             {
                 Komunikat.setText("Pole Email jest puste");
+                return;
+            }
+            if (!email.contains("@") || !email.contains("."))
+            {
+                Komunikat.setText("Niepoprawny adres email");
                 return;
             }
             out.println(email);

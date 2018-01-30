@@ -34,6 +34,23 @@ public class MenuProwadzacy {
                 menu.go(frame);
             }
         });
+        ZmienDane.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try
+                {
+                    PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+                    out.println("zmiana_danych");
+                    out.flush();
+                }
+                catch (Exception e1)
+                {
+                    e1.printStackTrace();
+                }
+                ZmienDane zmiana= new ZmienDane(socket);
+                zmiana.go(frame);
+            }
+        });
     }
 
     public void go(JFrame frame1) {
