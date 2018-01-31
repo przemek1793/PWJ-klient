@@ -64,7 +64,12 @@ public class Logowanie {
             out.flush();
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             String odpowiedz=in.readLine();
-            if (odpowiedz.equals("poprawne"))
+            if (odpowiedz.equals("nie zatwierdzony"))
+            {
+                NieZatwierdzony nieZ = new NieZatwierdzony(socket);
+                nieZ.go(frame);
+            }
+            else if (odpowiedz.equals("poprawne"))
             {
                 String typ = in.readLine();
                 if (typ.equals("student"))
