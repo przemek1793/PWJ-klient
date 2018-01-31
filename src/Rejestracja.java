@@ -17,7 +17,6 @@ public class Rejestracja {
     private JRadioButton radioStudent;
     private JRadioButton radioProwadzący;
     private JRadioButton radioAdministrator;
-    private JLabel Rejestrajca;
     private JButton Rejestruj;
     private JButton Wstecz;
     private JLabel Komunikat;
