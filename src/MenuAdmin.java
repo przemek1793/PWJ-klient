@@ -11,6 +11,7 @@ public class MenuAdmin {
     private JButton Zatwierdz;
     private JButton ZmienDane;
     private JPanel MenuAd;
+    private JButton zUżytkownik;
     public Socket socket;
     static private JFrame frame;
 

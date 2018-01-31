@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ZmienPreferowaneGodziny">
-  <grid id="27dc6" binding="ZmienPreferowaneGodziny" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="ZmienPreferowaneGodziny" layout-manager="GridLayoutManager" row-count="10" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="664" height="297"/>
     </constraints>
     <properties>
       <background color="-3804485"/>
@@ -12,7 +12,7 @@
     <children>
       <component id="3d2d7" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Nazwa przedmiotu"/>
@@ -20,7 +20,7 @@
       </component>
       <component id="1217" class="javax.swing.JComboBox" binding="PoleNazwa">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1856618"/>
@@ -28,33 +28,15 @@
       </component>
       <component id="ada3e" class="javax.swing.JLabel">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Ile okresów czasowych potrzeba"/>
-        </properties>
-      </component>
-      <component id="140dc" class="javax.swing.JSpinner" binding="PoleOkresy">
-        <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <background color="-1"/>
-          <enabled value="true"/>
-        </properties>
-      </component>
-      <component id="fea7a" class="javax.swing.JButton" binding="DodajOkresyCzasowe">
-        <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <background color="-1856618"/>
-          <text value="Pokaż odpowiednią ilość okresów czasowych"/>
+          <text value="Dzień tygodnia"/>
         </properties>
       </component>
       <component id="b1cd1" class="javax.swing.JButton" binding="ZmienGodziny">
         <constraints>
-          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="8" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1856618"/>
@@ -63,11 +45,154 @@
       </component>
       <component id="bb9be" class="javax.swing.JButton" binding="Wstecz">
         <constraints>
-          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1856618"/>
           <text value="Wstecz"/>
+        </properties>
+      </component>
+      <component id="2b23e" class="javax.swing.JTextField" binding="Od1">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+        </properties>
+      </component>
+      <component id="897dc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Od godziny"/>
+        </properties>
+      </component>
+      <component id="6df91" class="javax.swing.JLabel" binding="Komunikat">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="23def" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Do godziny"/>
+        </properties>
+      </component>
+      <component id="738d3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Proszę poniżej podać nowe preferowane godziny w formacie HH:MM."/>
+        </properties>
+      </component>
+      <component id="cb997" class="javax.swing.JComboBox" binding="Dzien1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+          <model>
+            <item value="Poniedziałek"/>
+            <item value="Wtorek"/>
+            <item value="Środa"/>
+            <item value="Czwartek"/>
+            <item value="Piątek"/>
+            <item value="Sobota"/>
+            <item value="Niedziela"/>
+          </model>
+        </properties>
+      </component>
+      <component id="c3b9b" class="javax.swing.JComboBox" binding="Dzień2">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+          <model>
+            <item value="Poniedziałek"/>
+            <item value="Wtorek"/>
+            <item value="Środa"/>
+            <item value="Czwartek"/>
+            <item value="Piątek"/>
+            <item value="Sobota"/>
+            <item value="Niedziela"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1da43" class="javax.swing.JComboBox" binding="Dzień3">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+          <model>
+            <item value="Poniedziałek"/>
+            <item value="Wtorek"/>
+            <item value="Środa"/>
+            <item value="Czwartek"/>
+            <item value="Piątek"/>
+            <item value="Sobota"/>
+            <item value="Niedziela"/>
+          </model>
+        </properties>
+      </component>
+      <component id="bcbe2" class="javax.swing.JTextField" binding="Od2">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+        </properties>
+      </component>
+      <component id="2a3aa" class="javax.swing.JTextField" binding="Od3">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+        </properties>
+      </component>
+      <component id="2e40b" class="javax.swing.JTextField" binding="Do1">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+        </properties>
+      </component>
+      <component id="9cf42" class="javax.swing.JTextField" binding="Do2">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+        </properties>
+      </component>
+      <component id="31263" class="javax.swing.JTextField" binding="Do3">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
         </properties>
       </component>
     </children>
