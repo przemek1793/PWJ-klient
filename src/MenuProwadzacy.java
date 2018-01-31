@@ -48,6 +48,13 @@ public class MenuProwadzacy {
                 nowe.go(frame);
             }
         });
+        ZmienGodziny.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ZmienPreferowaneGodziny zmianaGodzin = new ZmienPreferowaneGodziny(socket);
+                zmianaGodzin.go(frame);
+            }
+        });
     }
 
     public void go(JFrame frame1) {
