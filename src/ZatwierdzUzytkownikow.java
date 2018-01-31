@@ -32,6 +32,13 @@ public class ZatwierdzUzytkownikow {
                 zatwierdz();
             }
         });
+        Szczegóły.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                SzczegoloweInformacjeUzytkownika szczegoly= new SzczegoloweInformacjeUzytkownika(socket,String.valueOf(PoleLogin.getSelectedItem()));
+                szczegoly.go(frame);
+            }
+        });
     }
 
     public void go(JFrame frame1) {
