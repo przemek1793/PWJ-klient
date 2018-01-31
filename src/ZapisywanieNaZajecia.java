@@ -25,6 +25,12 @@ public class ZapisywanieNaZajecia {
                 st.go(frame);
             }
         });
+        Zapisz.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                zapiszNaZajecia();
+            }
+        });
     }
 
     public void go(JFrame frame1) {
@@ -50,6 +56,45 @@ public class ZapisywanieNaZajecia {
                 PoleNazwa.addItem(nazwaZajec);
             }
             frame.setVisible(true);
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    private void zapiszNaZajecia ()
+    {
+        try
+        {
+            PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+            out.println("zapisz na zajecia");
+            out.flush();
+            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            String uprawnienia = in.readLine();
+            if (uprawnienia.equals("brak uprawnien"))
+            {
+                Komunikat.setText("Brak uprawnień do zapisania się na zajęcia");
+            }
+            else
+            {
+                String nazwa = String.valueOf(PoleNazwa.getSelectedItem());
+                out.println(nazwa);
+                out.flush();
+                String odpowiedz=in.readLine();
+                if (odpowiedz.equals("ok"))
+                {
+                    Komunikat.setText("Zapisano na zajęcia");
+                }
+                if (odpowiedz.equals("bledne"))
+                {
+                    Komunikat.setText("Nie zapisano na zajęcia");
+                }
+                if (odpowiedz.equals("duplikat"))
+                {
+                    Komunikat.setText("Już jesteś zapisany na te zajęcia");
+                }
+            }
         }
         catch (Exception e)
         {
