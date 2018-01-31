@@ -78,6 +78,8 @@ public class ZmienPreferowaneGodziny {
     {
         String koment="";
         int ileDobrychOkresów=0;
+        int [] poczatek=new int [3];
+        int [] koniec=new int [3];
         String nazwa = String.valueOf(PoleNazwa.getSelectedItem());
         if (nazwa.equals("Nie prowadzisz żadnych zajęć"))
         {
@@ -108,10 +110,6 @@ public class ZmienPreferowaneGodziny {
                     else
                     {
                         // Dwukropek w złym miejscu
-                        char a =od[i].charAt(1);
-                        char b =od[i].charAt(2);
-                        char c =doCzasu[i].charAt(1);
-                        char d =doCzasu[i].charAt(2);
                         if ((od[i].charAt(1)==':' || od[i].charAt(2)==':')&& (doCzasu[i].charAt(1)==':' || doCzasu[i].charAt(2)==':'))
                         {
                             try
@@ -143,9 +141,9 @@ public class ZmienPreferowaneGodziny {
                                 }
                                 else
                                 {
-                                    int poczatek=odGodzina*60+odMinuty;
-                                    int koniec = doGodzina*60+doMinuty;
-                                    if ((koniec-poczatek)>=90)
+                                    poczatek[i]=odGodzina*60+odMinuty;
+                                    koniec[i] = doGodzina*60+doMinuty;
+                                    if ((koniec[i]-poczatek[i])>=90)
                                     {
                                         ileDobrychOkresów++;
 
@@ -176,8 +174,7 @@ public class ZmienPreferowaneGodziny {
         {
             if (ileDobrychOkresów>0)
             {
-                Komunikat.setText("Wysłano nowe preferowane godziny do administratora w celu zatwierdzenia");
-                //przeslijGodzinyNaSerwer();
+                przeslijGodzinyNaSerwer(poczatek,koniec);
             }
             else
             {
@@ -187,7 +184,7 @@ public class ZmienPreferowaneGodziny {
     }
 
 
-    private void przeslijGodzinyNaSerwer ()
+    private void przeslijGodzinyNaSerwer (int [] poczatek, int [] koniec)
     {
         Komunikat.setText("Wysłano nowe preferowane godziny do administratora w celu zatwierdzenia");
     }
