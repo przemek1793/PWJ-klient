@@ -13,7 +13,7 @@ public class ZmienPreferowaneGodziny {
     private JButton ZmienGodziny;
     private JButton Wstecz;
     private JTextField Od1;
-    private JComboBox Dzien1;
+    private JComboBox Dzień1;
     private JComboBox Dzień2;
     private JComboBox Dzień3;
     private JLabel Komunikat;
@@ -186,6 +186,49 @@ public class ZmienPreferowaneGodziny {
 
     private void przeslijGodzinyNaSerwer (int [] poczatek, int [] koniec)
     {
-        Komunikat.setText("Wysłano nowe preferowane godziny do administratora w celu zatwierdzenia");
+        try
+        {
+            PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+            out.println("zmiana preferowanych godzin");
+
+            String godziny="";
+
+            for (int i=0;i<3;i++)
+            {
+                if ((koniec[i]-poczatek[i])>=90)
+                {
+                    switch (i)
+                    {
+                        case 0:
+                            godziny=godziny+String.valueOf(Dzień1.getSelectedItem())+poczatek[i]+"-"+koniec[i]+", ";
+                            break;
+                        case 1:
+                            godziny=godziny+String.valueOf(Dzień2.getSelectedItem())+poczatek[i]+"-"+koniec[i]+", ";
+                            break;
+                        case 2:
+                            godziny=godziny+String.valueOf(Dzień3.getSelectedItem())+poczatek[i]+"-"+koniec[i]+", ";
+                            break;
+                    }
+                }
+            }
+            String nazwa=String.valueOf(PoleNazwa.getSelectedItem());
+            out.println(nazwa);
+            out.println(godziny);
+            out.flush();
+            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            String odpowiedz=in.readLine();
+            if (odpowiedz.equals("ok"))
+            {
+                Komunikat.setText("Wysłano nowe preferowane godziny do administratora w celu zatwierdzenia");
+            }
+            if (odpowiedz.equals("bledne"))
+            {
+                Komunikat.setText("Nie zmieniono godzin");
+            }
+        }
+        catch (Exception exc)
+        {
+            exc.printStackTrace();
+        }
     }
 }
