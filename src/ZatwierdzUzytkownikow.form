@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ZatwierdzUzytkownikow">
+  <grid id="27dc6" binding="ZatwiedzUzytkownikow" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-3804485"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="etched" title="PWJ - zatwierdzanie użytkowników" title-justification="2" title-position="2"/>
+    <children>
+      <component id="f06f2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Login"/>
+        </properties>
+      </component>
+      <component id="905d6" class="javax.swing.JComboBox" binding="PoleLogin">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+        </properties>
+      </component>
+      <component id="d0e76" class="javax.swing.JButton" binding="Zatwierdz">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+          <text value="Zatwierdź użytkownika"/>
+        </properties>
+      </component>
+      <component id="70ee2" class="javax.swing.JButton" binding="Szczegóły">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+          <text value="Szczegółowe informacje o wybranym użytkowniku"/>
+        </properties>
+      </component>
+      <component id="4dfc1" class="javax.swing.JButton" binding="Wstecz">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1856618"/>
+          <text value="Wstecz"/>
+        </properties>
+      </component>
+      <component id="d3f5b" class="javax.swing.JLabel" binding="Komunikat">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
