@@ -25,6 +25,12 @@ public class ProwadzNoweZajecia {
                 pr.go(frame);
             }
         });
+        ProwadzNowe.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                NoweZajecia();
+            }
+        });
     }
 
     public void go(JFrame frame1) {
@@ -50,6 +56,49 @@ public class ProwadzNoweZajecia {
                 PoleNazwa.addItem(nazwaZajec);
             }
             frame.setVisible(true);
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    private void NoweZajecia ()
+    {
+        try
+        {
+            PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+            out.println("prowadz nowe zajecia");
+            out.flush();
+            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            String uprawnienia = in.readLine();
+            if (uprawnienia.equals("brak uprawnien"))
+            {
+                Komunikat.setText("Brak uprawnień do prowadzenia zajęć");
+            }
+            else
+            {
+                String nazwa = String.valueOf(PoleNazwa.getSelectedItem());
+                out.println(nazwa);
+                out.flush();
+                String odpowiedz=in.readLine();
+                if (odpowiedz.equals("ok"))
+                {
+                    Komunikat.setText("Zmiana została przesłana do administratora w celu akceptacji");
+                }
+                if (odpowiedz.equals("bledne"))
+                {
+                    Komunikat.setText("Nie zapisano na prowadzenie zajęć");
+                }
+                if (odpowiedz.equals("duplikat"))
+                {
+                    Komunikat.setText("Już oczekujesz na akceptacje administratora");
+                }
+                if (odpowiedz.equals("duplikat2"))
+                {
+                    Komunikat.setText("Już prowadzisz przedmiot");
+                }
+            }
         }
         catch (Exception e)
         {

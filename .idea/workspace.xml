@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c06a9a0-ee56-44d1-925d-7b2c889f4152" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ProwadzNoweZajecia.form" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ProwadzNoweZajecia.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/MenuProwadzacy.java" afterPath="$PROJECT_DIR$/src/MenuProwadzacy.java" />
+      <change beforePath="$PROJECT_DIR$/src/ProwadzNoweZajecia.java" afterPath="$PROJECT_DIR$/src/ProwadzNoweZajecia.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProwadzNoweZajecia.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProwadzNoweZajecia.java">
+      <file leaf-file-name="ZapisywanieNaZajecia.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ZapisywanieNaZajecia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+            <state relative-caret-position="261">
+              <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,14 +32,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuProwadzacy.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
+      <file leaf-file-name="ProwadzNoweZajecia.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProwadzNoweZajecia.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1502">
+              <caret line="98" column="63" lean-forward="false" selection-start-line="98" selection-start-column="63" selection-end-line="98" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuProwadzacy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MenuProwadzacy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="454">
@@ -57,18 +61,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZapisywanieNaZajecia.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ZapisywanieNaZajecia.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,8 +130,8 @@
         <option value="$PROJECT_DIR$/src/MenuStudent.java" />
         <option value="$PROJECT_DIR$/src/ZapisywanieNaZajecia.java" />
         <option value="$PROJECT_DIR$/src/ProwadzNoweZajecia.form" />
-        <option value="$PROJECT_DIR$/src/ProwadzNoweZajecia.java" />
         <option value="$PROJECT_DIR$/src/MenuProwadzacy.java" />
+        <option value="$PROJECT_DIR$/src/ProwadzNoweZajecia.java" />
       </list>
     </option>
   </component>
@@ -723,35 +715,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProwadzNoweZajecia.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NowyPrzedmiot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZapisywanieNaZajecia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProwadzNoweZajecia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -768,6 +735,33 @@
         <state relative-caret-position="454">
           <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProwadzNoweZajecia.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZapisywanieNaZajecia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProwadzNoweZajecia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1502">
+          <caret line="98" column="63" lean-forward="false" selection-start-line="98" selection-start-column="63" selection-end-line="98" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
