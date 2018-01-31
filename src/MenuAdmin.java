@@ -40,6 +40,13 @@ public class MenuAdmin {
                 zmiana.go(frame);
             }
         });
+        NowyPrzedmiot.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                NowyPrzedmiot nowy = new NowyPrzedmiot(socket);
+                nowy.go(frame);
+            }
+        });
     }
 
     public void go(JFrame frame1) {
