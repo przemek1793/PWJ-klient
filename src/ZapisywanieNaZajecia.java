@@ -84,7 +84,7 @@ public class ZapisywanieNaZajecia {
                 String odpowiedz=in.readLine();
                 if (odpowiedz.equals("ok"))
                 {
-                    Komunikat.setText("Zapisano na zajęcia");
+                    Komunikat.setText("Zmiana została przesłana do administratora w celu akceptacji");
                 }
                 if (odpowiedz.equals("bledne"))
                 {
@@ -92,7 +92,11 @@ public class ZapisywanieNaZajecia {
                 }
                 if (odpowiedz.equals("duplikat"))
                 {
-                    Komunikat.setText("Już jesteś zapisany na te zajęcia");
+                    Komunikat.setText("Już oczekujesz na akceptacje administratora");
+                }
+                if (odpowiedz.equals("duplikat2"))
+                {
+                    Komunikat.setText("Jesteś już zapisany na przedmiot");
                 }
             }
         }

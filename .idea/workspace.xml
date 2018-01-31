@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZapisywanieNaZajecia.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ZapisywanieNaZajecia.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ZapisywanieNaZajecia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+            <state relative-caret-position="482">
+              <caret line="98" column="71" lean-forward="false" selection-start-line="98" selection-start-column="71" selection-end-line="98" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#948#949#0" expanded="true" />
@@ -73,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuProwadzacy.form" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MenuProwadzacy.form" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
@@ -466,14 +466,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ZapisywanieNaZajecia.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
@@ -759,18 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZapisywanieNaZajecia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuAdmin.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -789,6 +769,18 @@
     <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZapisywanieNaZajecia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="98" column="71" lean-forward="false" selection-start-line="98" selection-start-column="71" selection-end-line="98" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
