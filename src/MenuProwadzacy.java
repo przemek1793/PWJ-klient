@@ -41,6 +41,13 @@ public class MenuProwadzacy {
                 zmiana.go(frame);
             }
         });
+        ZapiszProwadzenie.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ProwadzNoweZajecia nowe = new ProwadzNoweZajecia(socket);
+                nowe.go(frame);
+            }
+        });
     }
 
     public void go(JFrame frame1) {
