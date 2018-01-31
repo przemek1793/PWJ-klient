@@ -26,6 +26,12 @@ public class NowyPrzedmiot {
                 ad.go(frame);
             }
         });
+        DodajNowy.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dodajPrzedmiot();
+            }
+        });
     }
 
     public void go(JFrame frame1) {
@@ -51,6 +57,52 @@ public class NowyPrzedmiot {
                 PoleNazwisko.addItem(nazwiskoProwadzacego);
             }
             frame.setVisible(true);
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    private void dodajPrzedmiot ()
+    {
+        try
+        {
+            PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+            out.println("nowy_przedmiot");
+            out.flush();
+            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            String uprawnienia = in.readLine();
+            if (uprawnienia.equals("brak uprawnien"))
+            {
+                Komunikat.setText("Brak uprawnień do dodawania przedmiotów");
+            }
+            else
+            {
+                String nazwa=PoleNazwa.getText();
+                if (nazwa.equals(""))
+                {
+                    Komunikat.setText("Pole Nazwa jest puste");
+                    return;
+                }
+                out.println(nazwa);
+                String nazwisko = String.valueOf(PoleNazwisko.getSelectedItem());
+                out.println(nazwisko);
+                out.flush();
+                String odpowiedz=in.readLine();
+                if (odpowiedz.equals("ok"))
+                {
+                    Komunikat.setText("Stworzono nowy przedmiot o podanych danych");
+                }
+                if (odpowiedz.equals("bledne"))
+                {
+                    Komunikat.setText("Nie stworzono przedmiotu");
+                }
+                if (odpowiedz.equals("duplikat"))
+                {
+                    Komunikat.setText("Przedmiot o podanej nazwie już istnieje");
+                }
+            }
         }
         catch (Exception e)
         {
