@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c06a9a0-ee56-44d1-925d-7b2c889f4152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MenuAdmin.java" afterPath="$PROJECT_DIR$/src/MenuAdmin.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/NowyPrzedmiot.java" afterPath="$PROJECT_DIR$/src/NowyPrzedmiot.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,11 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NowyPrzedmiot.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MenuAdmin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MenuAdmin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NowyPrzedmiot.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NowyPrzedmiot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="539">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,21 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuAdmin.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MenuAdmin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ZmienDane.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ZmienDane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="42" selection-end-column="33" />
+            <state relative-caret-position="369">
+              <caret line="77" column="44" lean-forward="true" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -132,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/ZmienDane.java" />
         <option value="$PROJECT_DIR$/src/Rejestracja.form" />
         <option value="$PROJECT_DIR$/src/NowyPrzedmiot.form" />
-        <option value="$PROJECT_DIR$/src/NowyPrzedmiot.java" />
         <option value="$PROJECT_DIR$/src/MenuAdmin.java" />
+        <option value="$PROJECT_DIR$/src/NowyPrzedmiot.java" />
       </list>
     </option>
   </component>
@@ -426,7 +426,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NowyPrzedmiot.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -689,25 +697,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuStudent.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Rejestracja.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZmienDane.java">
+    <entry file="file://$PROJECT_DIR$/src/MenuAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="42" selection-end-column="33" />
+        <state relative-caret-position="340">
+          <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -717,13 +715,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NowyPrzedmiot.java">
+    <entry file="file://$PROJECT_DIR$/src/ZmienDane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="369">
+          <caret line="77" column="44" lean-forward="true" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -732,11 +728,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuAdmin.java">
+    <entry file="file://$PROJECT_DIR$/src/MenuStudent.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NowyPrzedmiot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="539">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
