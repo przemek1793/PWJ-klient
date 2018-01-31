@@ -26,6 +26,12 @@ public class ZatwierdzUzytkownikow {
                 ad.go(frame);
             }
         });
+        Zatwierdz.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                zatwierdz();
+            }
+        });
     }
 
     public void go(JFrame frame1) {
@@ -45,12 +51,47 @@ public class ZatwierdzUzytkownikow {
             out.flush();
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             int iluNiezatwierdzonych = Integer.parseInt(in.readLine());
+            if (iluNiezatwierdzonych==0)
+                PoleLogin.addItem("Nie ma niezatwierdzonych użytkowników");
             for (int i=0; i<iluNiezatwierdzonych; i++)
             {
                 String login=in.readLine();
                 PoleLogin.addItem(login);
             }
             frame.setVisible(true);
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    private void zatwierdz ()
+    {
+        try
+        {
+            String login = String.valueOf(PoleLogin.getSelectedItem());
+            if (login.equals("Nie ma niezatwierdzonych użytkowników"))
+            {
+                Komunikat.setText("Nie ma kogo zatwierdzac");
+            }
+            else
+            {
+                PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+                out.println("zatwierdzanie uzytkownika");
+                out.println(login);
+                out.flush();
+                BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                String odpowiedz=in.readLine();
+                if (odpowiedz.equals("ok"))
+                {
+                    Komunikat.setText("Zatwierdzono użytkownika");
+                }
+                if (odpowiedz.equals("bledne"))
+                {
+                    Komunikat.setText("Nie zatwierdzono użytkownika");
+                }
+            }
         }
         catch (Exception e)
         {
