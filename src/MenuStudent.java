@@ -41,6 +41,13 @@ public class MenuStudent {
                 zmiana.go(frame);
             }
         });
+        ZapiszNaZajecia.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ZapisywanieNaZajecia zapisz = new ZapisywanieNaZajecia(socket);
+                zapisz.go(frame);
+            }
+        });
     }
 
     public void go(JFrame frame1) {
