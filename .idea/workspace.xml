@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c06a9a0-ee56-44d1-925d-7b2c889f4152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Rejestracja.java" afterPath="$PROJECT_DIR$/src/Rejestracja.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/MenuAdmin$1.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/MenuAdmin$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/MenuAdmin$2.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/MenuAdmin$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/MenuAdmin$3.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/MenuAdmin$3.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/MenuAdmin$4.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/MenuAdmin$4.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/MenuAdmin$5.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/MenuAdmin$5.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/MenuAdmin.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/MenuAdmin.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/Rejestracja.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/Rejestracja.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/SzczegoloweInformacjeUzytkownika$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/SzczegoloweInformacjeUzytkownika.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/ZatwierdzUzytkownikow$1.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/ZatwierdzUzytkownikow$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/ZatwierdzUzytkownikow$2.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/ZatwierdzUzytkownikow$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/ZatwierdzUzytkownikow$3.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/ZatwierdzUzytkownikow$3.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/ZatwierdzUzytkownikow.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/ZatwierdzUzytkownikow.class" />
+      <change beforePath="$PROJECT_DIR$/src/MenuAdmin.form" afterPath="$PROJECT_DIR$/src/MenuAdmin.form" />
+      <change beforePath="$PROJECT_DIR$/src/MenuAdmin.java" afterPath="$PROJECT_DIR$/src/MenuAdmin.java" />
+      <change beforePath="$PROJECT_DIR$/src/Rejestracja.form" afterPath="$PROJECT_DIR$/src/Rejestracja.form" />
+      <change beforePath="$PROJECT_DIR$/src/SzczegoloweInformacjeUzytkownika.form" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/SzczegoloweInformacjeUzytkownika.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/ZatwierdzUzytkownikow.form" afterPath="$PROJECT_DIR$/src/ZatwierdzUzytkownikow.form" />
+      <change beforePath="$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java" afterPath="$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +40,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MenuAdmin.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MenuAdmin.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZatwierdzUzytkownikow.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ZatwierdzUzytkownikow.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ZatwierdzZmiany.form" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ZatwierdzZmiany.form">
           <provider selected="true" editor-type-id="ui-designer">
@@ -27,11 +61,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ZatwierdzUzytkownikow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-198">
+              <caret line="38" column="11" lean-forward="false" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1199#1200#0" expanded="true" />
+                <element signature="e#4844#4845#0" expanded="true" />
+                <element signature="e#4880#4881#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ZatwierdzZmiany.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ZatwierdzZmiany.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="414">
+              <caret line="89" column="16" lean-forward="false" selection-start-line="89" selection-start-column="16" selection-end-line="90" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1725#1726#0" expanded="true" />
@@ -59,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rejestracja.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rejestracja.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="274">
@@ -109,16 +159,13 @@
         <option value="$PROJECT_DIR$/src/PrzypomnijHaslo.java" />
         <option value="$PROJECT_DIR$/src/ZmienDane.form" />
         <option value="$PROJECT_DIR$/src/ZmienDane.java" />
-        <option value="$PROJECT_DIR$/src/Rejestracja.form" />
         <option value="$PROJECT_DIR$/src/NowyPrzedmiot.form" />
         <option value="$PROJECT_DIR$/src/NowyPrzedmiot.java" />
         <option value="$PROJECT_DIR$/src/ZapisywanieNaZajecia.form" />
         <option value="$PROJECT_DIR$/src/MenuStudent.java" />
         <option value="$PROJECT_DIR$/src/ProwadzNoweZajecia.form" />
         <option value="$PROJECT_DIR$/src/MenuProwadzacy.java" />
-        <option value="$PROJECT_DIR$/src/MenuAdmin.form" />
         <option value="$PROJECT_DIR$/src/ZmienPreferowaneGodziny.form" />
-        <option value="$PROJECT_DIR$/src/ZatwierdzUzytkownikow.form" />
         <option value="$PROJECT_DIR$/src/NieZatwierdzony.form" />
         <option value="$PROJECT_DIR$/src/NieZatwierdzony.java" />
         <option value="$PROJECT_DIR$/src/Logowanie.java" />
@@ -126,12 +173,15 @@
         <option value="$PROJECT_DIR$/src/SzczegoloweInformacjeUzytkownika.java" />
         <option value="$PROJECT_DIR$/src/ProwadzNoweZajecia.java" />
         <option value="$PROJECT_DIR$/src/ZmienPreferowaneGodziny.java" />
-        <option value="$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java" />
         <option value="$PROJECT_DIR$/src/MenuAdmin.java" />
         <option value="$PROJECT_DIR$/src/ZapisywanieNaZajecia.java" />
         <option value="$PROJECT_DIR$/src/ZatwierdzZmiany.form" />
         <option value="$PROJECT_DIR$/src/ZatwierdzZmiany.java" />
         <option value="$PROJECT_DIR$/src/Rejestracja.java" />
+        <option value="$PROJECT_DIR$/src/MenuAdmin.form" />
+        <option value="$PROJECT_DIR$/src/Rejestracja.form" />
+        <option value="$PROJECT_DIR$/src/ZatwierdzUzytkownikow.form" />
+        <option value="$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java" />
       </list>
     </option>
   </component>
@@ -192,6 +242,12 @@
               <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
               <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuAdmin" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="MenuProwadzacy" type="e9f4de52:FormNode" />
             </path>
             <path>
@@ -205,6 +261,12 @@
               <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Rejestracja" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ZatwierdzUzytkownikow" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
@@ -394,7 +456,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -404,12 +465,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -561,6 +622,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="77" column="44" lean-forward="true" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -577,11 +639,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProwadzNoweZajecia.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rejestracja.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
@@ -614,18 +671,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="69" column="29" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZatwierdzUzytkownikow.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SzczegoloweInformacjeUzytkownika.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="71" column="61" lean-forward="false" selection-start-line="71" selection-start-column="61" selection-end-line="71" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -656,26 +702,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuAdmin.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
           <caret line="61" column="34" lean-forward="false" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="96" column="20" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,32 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZatwierdzZmiany.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZatwierdzZmiany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#1969#1970#0" expanded="true" />
-            <element signature="e#3898#3899#0" expanded="true" />
-            <element signature="e#3934#3935#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NowyPrzedmiot.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -743,6 +748,69 @@
           <folding>
             <element signature="e#1189#1190#0" expanded="true" />
             <element signature="e#1232#1233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rejestracja.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuAdmin.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZatwierdzZmiany.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SzczegoloweInformacjeUzytkownika.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="71" column="61" lean-forward="false" selection-start-line="71" selection-start-column="61" selection-end-line="71" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZatwierdzZmiany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="89" column="16" lean-forward="false" selection-start-line="89" selection-start-column="16" selection-end-line="90" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1969#1970#0" expanded="true" />
+            <element signature="e#3898#3899#0" expanded="true" />
+            <element signature="e#3934#3935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZatwierdzUzytkownikow.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="38" column="11" lean-forward="false" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#4844#4845#0" expanded="true" />
+            <element signature="e#4880#4881#0" expanded="true" />
           </folding>
         </state>
       </provider>

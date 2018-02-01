@@ -14,6 +14,11 @@ public class ZatwierdzUzytkownikow {
     private JButton Wstecz;
     private JButton Szczegóły;
     private JLabel Komunikat;
+    private JButton UsunUzytkownika;
+    private JTextField PoleImie;
+    private JTextField PoleNazwisko;
+    private JTextField PoleEmail;
+    private JTextField PoleTyp;
     public Socket socket;
     static private JFrame frame;
 
@@ -32,11 +37,19 @@ public class ZatwierdzUzytkownikow {
                 zatwierdz();
             }
         });
-        Szczegóły.addActionListener(new ActionListener() {
+        PoleLogin.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                SzczegoloweInformacjeUzytkownika szczegoly= new SzczegoloweInformacjeUzytkownika(socket,String.valueOf(PoleLogin.getSelectedItem()));
-                szczegoly.go(frame);
+                try
+                {
+                    ComboboxItem aktualny =(ComboboxItem) PoleLogin.getSelectedItem();
+                    PoleEmail.setText(aktualny.email);
+                    PoleImie.setText(aktualny.imie);
+                    PoleTyp.setText(aktualny.typ);
+                    PoleNazwisko.setText(aktualny.nazwisko);
+                }
+                catch (NullPointerException e1)
+                { }
             }
         });
     }
@@ -64,7 +77,12 @@ public class ZatwierdzUzytkownikow {
             for (int i=0; i<iluNiezatwierdzonych; i++)
             {
                 String login=in.readLine();
-                PoleLogin.addItem(login);
+                String imie=in.readLine() ;
+                String nazwisko=in.readLine() ;
+                String email=in.readLine() ;
+                String typ=in.readLine() ;
+                ComboboxItem item = new ComboboxItem(login,imie,nazwisko,email,typ);
+                PoleLogin.addItem(item);
             }
             frame.setVisible(true);
         }
@@ -105,6 +123,29 @@ public class ZatwierdzUzytkownikow {
         catch (Exception e)
         {
             e.printStackTrace();
+        }
+    }
+
+    public class ComboboxItem
+    {
+        public String login;
+        public String imie ;
+        public String nazwisko ;
+        public String email ;
+        public String typ ;
+
+        ComboboxItem (String login, String imie, String nazwisko, String email, String typ)
+        {
+            this.login=login;
+            this.imie=imie;
+            this.nazwisko=nazwisko;
+            this.email=email;
+            this.typ=typ;
+        }
+
+        public  String toString()
+        {
+            return login;
         }
     }
 }
