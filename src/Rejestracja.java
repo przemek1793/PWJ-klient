@@ -87,10 +87,37 @@ public class Rejestracja {
                 Komunikat.setText("Pole Email jest puste");
                 return;
             }
+
             if (!email.contains("@") || !email.contains("."))
             {
                 Komunikat.setText("Niepoprawny adres email");
                 return;
+            }
+            else
+            {
+                try
+                {
+                    String [] emailCzesci=email.split("@");
+                    if (!emailCzesci[1].contains(".") || emailCzesci[0].length()<1)
+                    {
+                        Komunikat.setText("Niepoprawny adres email");
+                        return;
+                    }
+                    else
+                    {
+                        emailCzesci=emailCzesci[1].split("\\.");
+                        if (emailCzesci[0].length()<1 || emailCzesci[1].length()<1)
+                        {
+                            Komunikat.setText("Niepoprawny adres email");
+                            return;
+                        }
+                    }
+                }
+                catch (IndexOutOfBoundsException arr)
+                {
+                    Komunikat.setText("Niepoprawny adres email");
+                    return;
+                }
             }
             out.println(email);
             String typ="";

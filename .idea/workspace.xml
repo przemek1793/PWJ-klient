@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c06a9a0-ee56-44d1-925d-7b2c889f4152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/ZatwierdzZmiany.form" afterPath="$PROJECT_DIR$/src/ZatwierdzZmiany.form" />
-      <change beforePath="$PROJECT_DIR$/src/ZatwierdzZmiany.java" afterPath="$PROJECT_DIR$/src/ZatwierdzZmiany.java" />
+      <change beforePath="$PROJECT_DIR$/src/Rejestracja.java" afterPath="$PROJECT_DIR$/src/Rejestracja.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZatwierdzZmiany.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ZatwierdzZmiany.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ZatwierdzZmiany.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
@@ -42,6 +40,33 @@
                 <element signature="e#1969#1970#0" expanded="true" />
                 <element signature="e#3898#3899#0" expanded="true" />
                 <element signature="e#3934#3935#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuProwadzacy.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NowyPrzedmiot.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NowyPrzedmiot.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rejestracja.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="108" column="70" lean-forward="false" selection-start-line="108" selection-start-column="70" selection-end-line="108" selection-end-column="70" />
+              <folding>
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1232#1233#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,7 +107,6 @@
         <option value="$PROJECT_DIR$/src/PrzypomnijHaslo.form" />
         <option value="$PROJECT_DIR$/src/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/PrzypomnijHaslo.java" />
-        <option value="$PROJECT_DIR$/src/Rejestracja.java" />
         <option value="$PROJECT_DIR$/src/ZmienDane.form" />
         <option value="$PROJECT_DIR$/src/ZmienDane.java" />
         <option value="$PROJECT_DIR$/src/Rejestracja.form" />
@@ -107,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/ZapisywanieNaZajecia.java" />
         <option value="$PROJECT_DIR$/src/ZatwierdzZmiany.form" />
         <option value="$PROJECT_DIR$/src/ZatwierdzZmiany.java" />
+        <option value="$PROJECT_DIR$/src/Rejestracja.java" />
       </list>
     </option>
   </component>
@@ -174,6 +199,12 @@
               <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="NowyPrzedmiot" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Rejestracja" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
@@ -373,7 +404,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -413,7 +444,7 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -555,13 +586,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="127" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ZmienPreferowaneGodziny.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -618,16 +642,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuStudent.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NowyPrzedmiot.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
@@ -708,6 +722,27 @@
             <element signature="e#1969#1970#0" expanded="true" />
             <element signature="e#3898#3899#0" expanded="true" />
             <element signature="e#3934#3935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NowyPrzedmiot.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="108" column="70" lean-forward="false" selection-start-line="108" selection-start-column="70" selection-end-line="108" selection-end-column="70" />
+          <folding>
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
           </folding>
         </state>
       </provider>
