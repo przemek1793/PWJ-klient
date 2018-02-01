@@ -200,13 +200,13 @@ public class ZmienPreferowaneGodziny {
                     switch (i)
                     {
                         case 0:
-                            godziny=godziny+String.valueOf(Dzień1.getSelectedItem())+poczatek[i]+"-"+koniec[i]+", ";
+                            godziny=godziny+String.valueOf(Dzień1.getSelectedItem())+" "+poczatek[i]+"-"+koniec[i]+", ";
                             break;
                         case 1:
-                            godziny=godziny+String.valueOf(Dzień2.getSelectedItem())+poczatek[i]+"-"+koniec[i]+", ";
+                            godziny=godziny+String.valueOf(Dzień2.getSelectedItem())+" "+poczatek[i]+"-"+koniec[i]+", ";
                             break;
                         case 2:
-                            godziny=godziny+String.valueOf(Dzień3.getSelectedItem())+poczatek[i]+"-"+koniec[i]+", ";
+                            godziny=godziny+String.valueOf(Dzień3.getSelectedItem())+" "+poczatek[i]+"-"+koniec[i]+", ";
                             break;
                     }
                 }
@@ -224,6 +224,10 @@ public class ZmienPreferowaneGodziny {
             if (odpowiedz.equals("bledne"))
             {
                 Komunikat.setText("Nie zmieniono godzin");
+            }
+            if (odpowiedz.equals("duplikat"))
+            {
+                Komunikat.setText("Już oczekujesz na akceptacje administratora");
             }
         }
         catch (Exception exc)

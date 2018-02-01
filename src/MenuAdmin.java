@@ -55,6 +55,13 @@ public class MenuAdmin {
                 zatwierdzanie.go(frame);
             }
         });
+        Zatwierdz.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ZatwierdzZmiany zatwierdz = new ZatwierdzZmiany(socket);
+                zatwierdz.go(frame);
+            }
+        });
     }
 
     public void go(JFrame frame1) {

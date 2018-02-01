@@ -46,7 +46,7 @@ public class ZapisywanieNaZajecia {
         try
         {
             PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
-            out.println("lista_zajec");
+            out.println("lista zajec na ktore nie jest zapisany");
             out.flush();
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             int ileZajec = Integer.parseInt(in.readLine());

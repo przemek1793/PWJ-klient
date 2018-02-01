@@ -53,6 +53,7 @@ public class ZatwierdzUzytkownikow {
     {
         try
         {
+            PoleLogin.removeAllItems();
             PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
             out.println("lista niezatwierdzonych");
             out.flush();
@@ -93,6 +94,7 @@ public class ZatwierdzUzytkownikow {
                 if (odpowiedz.equals("ok"))
                 {
                     Komunikat.setText("Zatwierdzono użytkownika");
+                    zaladujNiezatwierdzonych();
                 }
                 if (odpowiedz.equals("bledne"))
                 {
