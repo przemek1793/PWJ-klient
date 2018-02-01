@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c06a9a0-ee56-44d1-925d-7b2c889f4152" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ZatwierdzZmiany.form" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ZatwierdzZmiany.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/ProwadzNoweZajecia.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/ProwadzNoweZajecia.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/ZatwierdzUzytkownikow.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/ZatwierdzUzytkownikow.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/ZmienPreferowaneGodziny.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/ZmienPreferowaneGodziny.class" />
-      <change beforePath="$PROJECT_DIR$/src/MenuAdmin.java" afterPath="$PROJECT_DIR$/src/MenuAdmin.java" />
-      <change beforePath="$PROJECT_DIR$/src/ProwadzNoweZajecia.java" afterPath="$PROJECT_DIR$/src/ProwadzNoweZajecia.java" />
-      <change beforePath="$PROJECT_DIR$/src/ZapisywanieNaZajecia.java" afterPath="$PROJECT_DIR$/src/ZapisywanieNaZajecia.java" />
-      <change beforePath="$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java" afterPath="$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java" />
-      <change beforePath="$PROJECT_DIR$/src/ZmienPreferowaneGodziny.java" afterPath="$PROJECT_DIR$/src/ZmienPreferowaneGodziny.java" />
+      <change beforePath="$PROJECT_DIR$/src/ZatwierdzZmiany.form" afterPath="$PROJECT_DIR$/src/ZatwierdzZmiany.form" />
+      <change beforePath="$PROJECT_DIR$/src/ZatwierdzZmiany.java" afterPath="$PROJECT_DIR$/src/ZatwierdzZmiany.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +42,8 @@
       <file leaf-file-name="ZatwierdzUzytkownikow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="397">
+              <caret line="96" column="20" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,12 +54,14 @@
       <file leaf-file-name="ZatwierdzZmiany.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ZatwierdzZmiany.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="37" column="56" lean-forward="false" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+            <state relative-caret-position="539">
+              <caret line="143" column="99" lean-forward="false" selection-start-line="143" selection-start-column="99" selection-end-line="143" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3295#3296#0" expanded="true" />
-                <element signature="e#3323#3324#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1598#1599#0" expanded="true" />
+                <element signature="e#3525#3526#0" expanded="true" />
+                <element signature="e#3561#3562#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,14 +162,14 @@
         <option value="$PROJECT_DIR$/src/ProwadzNoweZajecia.java" />
         <option value="$PROJECT_DIR$/src/ZmienPreferowaneGodziny.java" />
         <option value="$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java" />
-        <option value="$PROJECT_DIR$/src/ZatwierdzZmiany.form" />
         <option value="$PROJECT_DIR$/src/MenuAdmin.java" />
         <option value="$PROJECT_DIR$/src/ZapisywanieNaZajecia.java" />
+        <option value="$PROJECT_DIR$/src/ZatwierdzZmiany.form" />
         <option value="$PROJECT_DIR$/src/ZatwierdzZmiany.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="84" />
     <option name="y" value="5" />
     <option name="width" value="1288" />
@@ -451,7 +445,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -495,8 +489,14 @@
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ZatwierdzZmiany.java</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -745,16 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuAdmin.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -788,14 +778,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZatwierdzZmiany.java">
+    <entry file="file://$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="37" column="56" lean-forward="false" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+        <state relative-caret-position="397">
+          <caret line="96" column="20" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-            <element signature="e#3323#3324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZatwierdzZmiany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="143" column="99" lean-forward="false" selection-start-line="143" selection-start-column="99" selection-end-line="143" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#3525#3526#0" expanded="true" />
+            <element signature="e#3561#3562#0" expanded="true" />
           </folding>
         </state>
       </provider>

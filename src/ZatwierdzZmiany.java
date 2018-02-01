@@ -16,6 +16,7 @@ public class ZatwierdzZmiany {
     private JTextField PoleTabela;
     private JButton Wstecz;
     private JButton Zmiana;
+    private JLabel Komunikat;
     public Socket socket;
     static private JFrame frame;
 
@@ -36,6 +37,12 @@ public class ZatwierdzZmiany {
                 PoleKlucz.setText(aktualny.Klucz);
                 PoleKolumna.setText(aktualny.KolumnaDoZmiany);
                 PoleWartosc.setText(aktualny.NowaWartosc);
+            }
+        });
+        Zmiana.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                zatwierdzZmiany();
             }
         });
     }
@@ -97,8 +104,55 @@ public class ZatwierdzZmiany {
         }
 
         public  String toString()
-    {
-        return nazwa;
+        {
+            return nazwa;
+        }
     }
+
+    private void zatwierdzZmiany ()
+    {
+        try
+        {
+            if (ZmianaCombo.getSelectedItem().equals("Nie ma żadnych niezatwierdzonych zmian"))
+            {
+                Komunikat.setText("Nie ma zmian do zatwierdzenia");
+            }
+            else
+            {
+                PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+                out.println("zatwierdzanie zmian");
+                String Tabela, Klucz, Kolumna, Wartosc;
+                Tabela=PoleTabela.getText();
+                Klucz=PoleKlucz.getText();
+                Kolumna=PoleKolumna.getText();
+                Wartosc=PoleWartosc.getText();
+                out.println(Tabela);
+                out.println(Klucz);
+                out.println(Kolumna);
+                out.println(Wartosc);
+                out.flush();
+
+                BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                String odpowiedz=in.readLine();
+                if (odpowiedz.equals("ok"))
+                {
+                    Komunikat.setText("Zatwierdzono zmiane");
+                    zaladujZmiany();
+                }
+                if (odpowiedz.equals("nie usunieto zmiany"))
+                {
+                    Komunikat.setText("Wykonano zmiane, ale nie udało jej się usunąć z tabeli zmian");
+                    zaladujZmiany();
+                }
+                if (odpowiedz.equals("bledne"))
+                {
+                    Komunikat.setText("Nie zatwierdzono zmiany");
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
     }
 }
