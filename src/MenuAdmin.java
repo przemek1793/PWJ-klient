@@ -13,6 +13,7 @@ public class MenuAdmin {
     private JPanel MenuAd;
     private JButton zUżytkownik;
     private JButton UsunUzytkownikow;
+    private JButton UsunPrzedmiot;
     public Socket socket;
     static private JFrame frame;
 
@@ -61,6 +62,13 @@ public class MenuAdmin {
             public void actionPerformed(ActionEvent e) {
                 ZatwierdzZmiany zatwierdz = new ZatwierdzZmiany(socket);
                 zatwierdz.go(frame);
+            }
+        });
+        UsunUzytkownikow.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                UsunUzytkownikow usun= new UsunUzytkownikow(socket);
+                usun.go(frame);
             }
         });
     }

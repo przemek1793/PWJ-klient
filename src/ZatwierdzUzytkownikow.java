@@ -49,14 +49,25 @@ public class ZatwierdzUzytkownikow {
                     PoleNazwisko.setText(aktualny.nazwisko);
                 }
                 catch (NullPointerException e1)
-                { }
+                {
+                    PoleEmail.setText("");
+                    PoleImie.setText("");
+                    PoleTyp.setText("");
+                    PoleNazwisko.setText("");
+                }
+            }
+        });
+        UsunUzytkownika.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                usun();
             }
         });
     }
 
     public void go(JFrame frame1) {
         frame=frame1;
-        frame.setTitle("Dodawanie nowego przedmiotu");
+        frame.setTitle("Zatwierdzanie użytkownika");
         frame.setContentPane(this.ZatwiedzUzytkownikow);
         zaladujNiezatwierdzonych();
         frame.pack();
@@ -117,6 +128,40 @@ public class ZatwierdzUzytkownikow {
                 if (odpowiedz.equals("bledne"))
                 {
                     Komunikat.setText("Nie zatwierdzono użytkownika");
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    private void usun ()
+    {
+        try
+        {
+            String login = String.valueOf(PoleLogin.getSelectedItem());
+            if (login.equals("Nie ma niezatwierdzonych użytkowników"))
+            {
+                Komunikat.setText("Nie ma kogo usuwać");
+            }
+            else
+            {
+                PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+                out.println("usuwanie uzytkownika");
+                out.println(login);
+                out.flush();
+                BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                String odpowiedz=in.readLine();
+                if (odpowiedz.equals("ok"))
+                {
+                    Komunikat.setText("Usunięto użytkownika");
+                    zaladujNiezatwierdzonych();
+                }
+                if (odpowiedz.equals("nie usunieto zmiany"))
+                {
+                    Komunikat.setText("Nie usunięto użytkownika");
                 }
             }
         }
