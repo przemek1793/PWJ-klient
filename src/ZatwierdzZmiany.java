@@ -17,6 +17,7 @@ public class ZatwierdzZmiany {
     private JButton Wstecz;
     private JButton Zmiana;
     private JLabel Komunikat;
+    private JButton UsunZmiane;
     public Socket socket;
     static private JFrame frame;
 
@@ -32,17 +33,28 @@ public class ZatwierdzZmiany {
         ZmianaCombo.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                ComboboxItem aktualny =(ComboboxItem) ZmianaCombo.getSelectedItem();
-                PoleTabela.setText(aktualny.Tabela);
-                PoleKlucz.setText(aktualny.Klucz);
-                PoleKolumna.setText(aktualny.KolumnaDoZmiany);
-                PoleWartosc.setText(aktualny.NowaWartosc);
+                try
+                {
+                    ComboboxItem aktualny =(ComboboxItem) ZmianaCombo.getSelectedItem();
+                    PoleTabela.setText(aktualny.Tabela);
+                    PoleKlucz.setText(aktualny.Klucz);
+                    PoleKolumna.setText(aktualny.KolumnaDoZmiany);
+                    PoleWartosc.setText(aktualny.NowaWartosc);
+                }
+                catch (NullPointerException e1)
+                { }
             }
         });
         Zmiana.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 zatwierdzZmiany();
+            }
+        });
+        UsunZmiane.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                usunZmiany();
             }
         });
     }
@@ -80,9 +92,9 @@ public class ZatwierdzZmiany {
             }
             frame.setVisible(true);
         }
-        catch (Exception e)
+        catch (Exception e1)
         {
-            e.printStackTrace();
+            e1.printStackTrace();
         }
     }
 
@@ -147,6 +159,49 @@ public class ZatwierdzZmiany {
                 if (odpowiedz.equals("bledne"))
                 {
                     Komunikat.setText("Nie zatwierdzono zmiany");
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    private void usunZmiany ()
+    {
+        try
+        {
+            if (ZmianaCombo.getSelectedItem().equals("Nie ma żadnych niezatwierdzonych zmian"))
+            {
+                Komunikat.setText("Nie ma zmian do usunięcia");
+            }
+            else
+            {
+                PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+                out.println("usuwanie zmian");
+                String Tabela, Klucz, Kolumna, Wartosc;
+                Tabela=PoleTabela.getText();
+                Klucz=PoleKlucz.getText();
+                Kolumna=PoleKolumna.getText();
+                Wartosc=PoleWartosc.getText();
+                out.println(Tabela);
+                out.println(Klucz);
+                out.println(Kolumna);
+                out.println(Wartosc);
+                out.flush();
+
+                BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                String odpowiedz=in.readLine();
+                if (odpowiedz.equals("ok"))
+                {
+                    Komunikat.setText("Usunięto zmiane");
+                    zaladujZmiany();
+                }
+                if (odpowiedz.equals("nie usunieto zmiany"))
+                {
+                    Komunikat.setText("Nie usunięto zmiany");
+                    zaladujZmiany();
                 }
             }
         }
