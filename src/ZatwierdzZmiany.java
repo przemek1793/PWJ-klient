@@ -42,7 +42,12 @@ public class ZatwierdzZmiany {
                     PoleWartosc.setText(aktualny.NowaWartosc);
                 }
                 catch (NullPointerException e1)
-                { }
+                {
+                    PoleTabela.setText("");
+                    PoleKlucz.setText("");
+                    PoleKolumna.setText("");
+                    PoleWartosc.setText("");
+                }
             }
         });
         Zmiana.addActionListener(new ActionListener() {
@@ -61,7 +66,7 @@ public class ZatwierdzZmiany {
 
     public void go(JFrame frame1) {
         frame=frame1;
-        frame.setTitle("Dodawanie nowego przedmiotu");
+        frame.setTitle("Zatwierdzanie zmian");
         frame.setContentPane(this.ZatwierdzZmiany);
         zaladujZmiany();
         frame.pack();
