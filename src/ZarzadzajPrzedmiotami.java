@@ -44,6 +44,12 @@ public class ZarzadzajPrzedmiotami {
                 }
             }
         });
+        UsunPrzedmiot.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                usunZajecia();
+            }
+        });
     }
 
     public void go(JFrame frame1) {
@@ -58,6 +64,7 @@ public class ZarzadzajPrzedmiotami {
     {
         try
         {
+            PoleNazwa.removeAllItems();
             PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
             out.println("lista zajec ze szczegolowymi informacjami");
             out.flush();
@@ -99,6 +106,32 @@ public class ZarzadzajPrzedmiotami {
         public String toString() {
             return nazwa;
 
+        }
+    }
+
+    private void usunZajecia ()
+    {
+        try {
+            String nazwa = String.valueOf(PoleNazwa.getSelectedItem());
+            if (nazwa.equals("Nie ma żadnych zajęć")) {
+                Komunikat.setText("Nie ma zajęć do usunięcia");
+            } else {
+                PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
+                out.println("usuwanie zajec");
+                out.println(nazwa);
+                out.flush();
+                BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                String odpowiedz = in.readLine();
+                if (odpowiedz.equals("ok")) {
+                    Komunikat.setText("Usunięto przedmiot");
+                    zaladujZajecia();
+                }
+                if (odpowiedz.equals("nie usunieto")) {
+                    Komunikat.setText("Nie usunięto przedmiotu");
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
