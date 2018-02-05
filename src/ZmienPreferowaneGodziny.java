@@ -143,9 +143,9 @@ public class ZmienPreferowaneGodziny {
                                 {
                                     poczatek[i]=odGodzina*60+odMinuty;
                                     koniec[i] = doGodzina*60+doMinuty;
-                                    if (poczatek[i]<7*60 || koniec[i]>60*22)
+                                    if (poczatek[i]<7*60+30 || koniec[i]>60*21+15)
                                     {
-                                        koment="Zła godzina w okresie "+(i+1)+", godzina musi się znajdować w przedziale 7:00-22:00";
+                                        koment="Zła godzina w okresie "+(i+1)+", godzina musi się znajdować w przedziale 7:30-21:15";
                                     }
                                     else
                                     {
