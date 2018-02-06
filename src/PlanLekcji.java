@@ -68,6 +68,7 @@ public class PlanLekcji {
     private JLabel Pia18;
     private JLabel Pia1945;
     private JButton Wstecz;
+    private JButton Drukuj;
     static private JFrame frame;
     public Socket socket;
     private String typ;
@@ -94,6 +95,12 @@ public class PlanLekcji {
                     MainMenu menu= new MainMenu(socket);
                     menu.go(frame);
                 }
+            }
+        });
+        Drukuj.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new Thread(new WatekDrukarki(frame)).start();
             }
         });
     }
