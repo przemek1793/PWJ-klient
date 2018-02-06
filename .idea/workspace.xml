@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c06a9a0-ee56-44d1-925d-7b2c889f4152" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PlanLekcji.form" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PlanLekcji.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/MenuProwadzacy.java" afterPath="$PROJECT_DIR$/src/MenuProwadzacy.java" />
-      <change beforePath="$PROJECT_DIR$/src/MenuStudent.java" afterPath="$PROJECT_DIR$/src/MenuStudent.java" />
+      <change beforePath="$PROJECT_DIR$/src/PlanLekcji.java" afterPath="$PROJECT_DIR$/src/PlanLekcji.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +51,8 @@
       <file leaf-file-name="PlanLekcji.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PlanLekcji.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="121" column="25" lean-forward="false" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="44" />
+            <state relative-caret-position="382">
+              <caret line="115" column="36" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -460,13 +457,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/PlanLekcji.java</url>
-          <line>188</line>
+          <line>182</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/PlanLekcji.java</url>
-          <line>201</line>
+          <line>195</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
@@ -774,8 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlanLekcji.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="121" column="25" lean-forward="false" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="44" />
+        <state relative-caret-position="382">
+          <caret line="115" column="36" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

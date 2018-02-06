@@ -104,22 +104,16 @@ public class PlanLekcji {
         frame.setContentPane(this.PlanLekcji);
         nazwijKomponenty();
         createComponentMap();
-        if (typ.equals("student"))
-        {
-            zaladujPlanLekcjiStudent();
-        }
-        else if (typ.equals("prowadzacy"))
-        {
-        }
+        zaladujPlanLekcji();
         frame.pack();
     }
 
-    private void zaladujPlanLekcjiStudent ()
+    private void zaladujPlanLekcji ()
     {
         try
         {
             PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
-            out.println("plan lekcji student");
+            out.println("plan lekcji");
             out.flush();
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             int size = Integer.parseInt(in.readLine());
