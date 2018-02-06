@@ -55,6 +55,13 @@ public class MenuProwadzacy {
                 zmianaGodzin.go(frame);
             }
         });
+        SprawdzPlan.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                PlanLekcji lekcje = new PlanLekcji(socket,"prowadzacy");
+                lekcje.go(frame);
+            }
+        });
     }
 
     public void go(JFrame frame1) {
