@@ -22,6 +22,7 @@ public class ZarzadzajPrzedmiotamiProwadzacy {
     private JTextField Do1;
     private JTextField Do2;
     private JTextField Do3;
+    private JButton ListaStudentow;
     public Socket socket;
     static private JFrame frame;
 

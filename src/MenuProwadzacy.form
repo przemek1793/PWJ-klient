@@ -52,7 +52,7 @@
         </constraints>
         <properties>
           <background color="-1856618"/>
-          <text value="Zmień preferowane godziny prowadzenia przedmiotów"/>
+          <text value="Zarządzaj przedmiotami"/>
         </properties>
       </component>
     </children>
