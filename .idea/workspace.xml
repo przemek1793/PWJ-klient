@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c06a9a0-ee56-44d1-925d-7b2c889f4152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/PlanLekcji.java" afterPath="$PROJECT_DIR$/src/PlanLekcji.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/MainMenu.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/MainMenu.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/MenuProwadzacy$4.class" afterPath="$PROJECT_DIR$/out/production/pwj-klient/MenuProwadzacy$4.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/ZmienPreferowaneGodziny$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/ZmienPreferowaneGodziny$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/pwj-klient/ZmienPreferowaneGodziny.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" afterPath="$PROJECT_DIR$/src/MainMenu.java" />
+      <change beforePath="$PROJECT_DIR$/src/MenuProwadzacy.java" afterPath="$PROJECT_DIR$/src/MenuProwadzacy.java" />
+      <change beforePath="$PROJECT_DIR$/src/PlanLekcji.form" afterPath="$PROJECT_DIR$/src/PlanLekcji.form" />
+      <change beforePath="$PROJECT_DIR$/src/ZmienPreferowaneGodziny.form" afterPath="$PROJECT_DIR$/src/ZarzadzajPrzedmiotamiProwadzacy.form" />
+      <change beforePath="$PROJECT_DIR$/src/ZmienPreferowaneGodziny.java" afterPath="$PROJECT_DIR$/src/ZarzadzajPrzedmiotamiProwadzacy.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,109 +30,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZmienDane.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ZmienDane.java">
+      <file leaf-file-name="ZarzadzajPrzedmiotami.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ZarzadzajPrzedmiotami.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Klient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Klient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1779">
-              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="187">
+              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZmienPreferowaneGodziny.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ZmienPreferowaneGodziny.java">
+      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-440">
-              <caret line="81" column="34" lean-forward="true" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+            <state relative-caret-position="403">
+              <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrzypomnijHaslo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PrzypomnijHaslo.java">
+      <file leaf-file-name="JFrame.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/JFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            <state relative-caret-position="202">
+              <caret line="231" column="11" lean-forward="false" selection-start-line="231" selection-start-column="11" selection-end-line="231" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rejestracja.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rejestracja.java">
+      <file leaf-file-name="MainMenu.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainMenu.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZarzadzajPrzedmiotamiProwadzacy.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ZarzadzajPrzedmiotamiProwadzacy.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZarzadzajPrzedmiotamiProwadzacy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ZarzadzajPrzedmiotamiProwadzacy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="108" column="70" lean-forward="false" selection-start-line="108" selection-start-column="70" selection-end-line="108" selection-end-column="70" />
+            <state relative-caret-position="425">
+              <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlanLekcji.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PlanLekcji.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="129" column="42" lean-forward="false" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsunUzytkownikow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UsunUzytkownikow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-861">
-              <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZapisywanieNaZajecia.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ZapisywanieNaZajecia.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="59" column="27" lean-forward="false" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZarzadzajPrzedmiotami.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ZarzadzajPrzedmiotami.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="74" column="58" lean-forward="false" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZatwierdzUzytkownikow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3009">
-              <caret line="184" column="27" lean-forward="true" selection-start-line="184" selection-start-column="27" selection-end-line="184" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6374#6375#0" expanded="true" />
-                <element signature="e#6410#6411#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZatwierdzZmiany.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ZatwierdzZmiany.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="43" />
-              <folding />
-            </state>
+      <file leaf-file-name="PlanLekcji.form" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PlanLekcji.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -157,16 +129,13 @@
         <option value="$PROJECT_DIR$/src/Logowanie.form" />
         <option value="$PROJECT_DIR$/src/MenuStudent.form" />
         <option value="$PROJECT_DIR$/src/MenuProwadzacy.form" />
-        <option value="$PROJECT_DIR$/src/MainMenu.form" />
         <option value="$PROJECT_DIR$/src/PrzypomnijHaslo.form" />
-        <option value="$PROJECT_DIR$/src/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/PrzypomnijHaslo.java" />
         <option value="$PROJECT_DIR$/src/ZmienDane.form" />
         <option value="$PROJECT_DIR$/src/NowyPrzedmiot.form" />
         <option value="$PROJECT_DIR$/src/NowyPrzedmiot.java" />
         <option value="$PROJECT_DIR$/src/ZapisywanieNaZajecia.form" />
         <option value="$PROJECT_DIR$/src/ProwadzNoweZajecia.form" />
-        <option value="$PROJECT_DIR$/src/ZmienPreferowaneGodziny.form" />
         <option value="$PROJECT_DIR$/src/NieZatwierdzony.form" />
         <option value="$PROJECT_DIR$/src/NieZatwierdzony.java" />
         <option value="$PROJECT_DIR$/src/Logowanie.java" />
@@ -185,15 +154,19 @@
         <option value="$PROJECT_DIR$/src/MenuAdmin.java" />
         <option value="$PROJECT_DIR$/src/ZarzadzajPrzedmiotami.form" />
         <option value="$PROJECT_DIR$/src/ZarzadzajPrzedmiotami.java" />
-        <option value="$PROJECT_DIR$/src/ZmienPreferowaneGodziny.java" />
         <option value="$PROJECT_DIR$/src/ZatwierdzZmiany.java" />
         <option value="$PROJECT_DIR$/src/MenuStudent.java" />
         <option value="$PROJECT_DIR$/src/MenuProwadzacy.java" />
         <option value="$PROJECT_DIR$/src/WątekDrukarki.java" />
         <option value="$PROJECT_DIR$/src/WatekDrukarki.java" />
         <option value="$PROJECT_DIR$/src/ZmienDane.java" />
-        <option value="$PROJECT_DIR$/src/PlanLekcji.form" />
         <option value="$PROJECT_DIR$/src/PlanLekcji.java" />
+        <option value="$PROJECT_DIR$/src/ZmienPreferowaneGodziny.java" />
+        <option value="$PROJECT_DIR$/src/ZmienPreferowaneGodziny.form" />
+        <option value="$PROJECT_DIR$/src/ZarzadzajPrzedmiotamiProwadzacy.form" />
+        <option value="$PROJECT_DIR$/src/MainMenu.form" />
+        <option value="$PROJECT_DIR$/src/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/PlanLekcji.form" />
       </list>
     </option>
   </component>
@@ -272,13 +245,7 @@
               <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
               <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="NieZatwierdzony" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="NowyPrzedmiot" type="e9f4de52:FormNode" />
+              <item name="MenuProwadzacy" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
@@ -290,61 +257,19 @@
               <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
               <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProwadzNoweZajecia" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="PrzypomnijHaslo" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Rejestracja" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UsunUzytkownikow" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ZapisywanieNaZajecia" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ZarzadzajPrzedmiotami" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
               <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ZarzadzajPrzedmiotamiProwadzacy" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ZatwierdzUzytkownikow" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ZatwierdzZmiany" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ZmienDane" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="pwj-klient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pwj-klient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ZmienPreferowaneGodziny" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -566,7 +491,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ZmienPreferowaneGodziny.java</url>
+          <url>file://$PROJECT_DIR$/src/ZarzadzajPrzedmiotamiProwadzacy.java</url>
           <line>79</line>
           <properties />
           <option name="timeStamp" value="23" />
@@ -584,7 +509,7 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ZmienPreferowaneGodziny.java</url>
+          <url>file://$PROJECT_DIR$/src/ZarzadzajPrzedmiotamiProwadzacy.java</url>
           <line>197</line>
           <properties />
           <option name="timeStamp" value="37" />
@@ -601,13 +526,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Klient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/net/Socket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -618,11 +536,6 @@
     <entry file="file://$PROJECT_DIR$/src/ManuZalogowany.java" />
     <entry file="file://$PROJECT_DIR$/src/ManuZalogowany.form" />
     <entry file="file://$PROJECT_DIR$/src/Logowanie.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainMenu.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
@@ -639,26 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/JFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="696" column="16" lean-forward="false" selection-start-line="696" selection-start-column="16" selection-end-line="696" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ZapisywanieNaZajecia.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZmienPreferowaneGodziny.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
@@ -717,11 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZarzadzajPrzedmiotami.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProwadzNoweZajecia.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -763,22 +652,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="60" column="69" lean-forward="false" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlanLekcji.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WatekDrukarki.java">
@@ -796,19 +675,6 @@
     <entry file="file://$PROJECT_DIR$/src/ZmienDane.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuAdmin.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logowanie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="958">
-          <caret line="69" column="29" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NieZatwierdzony.java">
@@ -851,6 +717,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuAdmin.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZmienDane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1779">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuProwadzacy.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlanLekcji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/UsunUzytkownikow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-861">
@@ -867,6 +761,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZarzadzajPrzedmiotami.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="74" column="58" lean-forward="false" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ZatwierdzUzytkownikow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3009">
@@ -879,22 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZmienDane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1779">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZmienPreferowaneGodziny.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="81" column="34" lean-forward="true" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ZatwierdzZmiany.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -903,22 +789,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZarzadzajPrzedmiotami.java">
+    <entry file="file://$PROJECT_DIR$/src/ZarzadzajPrzedmiotamiProwadzacy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="74" column="58" lean-forward="false" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
+        <state relative-caret-position="425">
+          <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlanLekcji.java">
+    <entry file="file://$PROJECT_DIR$/src/ZarzadzajPrzedmiotamiProwadzacy.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logowanie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="129" column="42" lean-forward="false" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="573">
+          <caret line="69" column="29" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="231" column="11" lean-forward="false" selection-start-line="231" selection-start-column="11" selection-end-line="231" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZarzadzajPrzedmiotami.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Klient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainMenu.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlanLekcji.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
   </component>

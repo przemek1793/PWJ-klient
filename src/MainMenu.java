@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.Socket;
@@ -38,9 +39,11 @@ public class MainMenu {
 
     public void go() {
         frame = new JFrame("PWJ-grafik zajęć");
+        frame.setMinimumSize(new Dimension(500, 500));
         frame.setContentPane(this.MenuM);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
 

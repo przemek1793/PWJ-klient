@@ -51,7 +51,7 @@ public class MenuProwadzacy {
         ZmienGodziny.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                ZmienPreferowaneGodziny zmianaGodzin = new ZmienPreferowaneGodziny(socket);
+                ZarzadzajPrzedmiotamiProwadzacy zmianaGodzin = new ZarzadzajPrzedmiotamiProwadzacy(socket);
                 zmianaGodzin.go(frame);
             }
         });

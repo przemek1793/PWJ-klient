@@ -7,7 +7,7 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class ZmienPreferowaneGodziny {
+public class ZarzadzajPrzedmiotamiProwadzacy {
     private JPanel ZmienPreferowaneGodziny;
     private JComboBox PoleNazwa;
     private JButton ZmienGodziny;
@@ -25,7 +25,7 @@ public class ZmienPreferowaneGodziny {
     public Socket socket;
     static private JFrame frame;
 
-    public ZmienPreferowaneGodziny(Socket s) {
+    public ZarzadzajPrzedmiotamiProwadzacy(Socket s) {
         socket=s;
         Wstecz.addActionListener(new ActionListener() {
             @Override
@@ -44,7 +44,7 @@ public class ZmienPreferowaneGodziny {
 
     public void go(JFrame frame1) {
         frame=frame1;
-        frame.setTitle("Prowadzenie nowego przedmiotu");
+        frame.setTitle("Zarządzanie przedmiotami");
         frame.setContentPane(this.ZmienPreferowaneGodziny);
         zaladujZajecia();
         frame.pack();
