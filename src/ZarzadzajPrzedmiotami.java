@@ -54,7 +54,7 @@ public class ZarzadzajPrzedmiotami {
 
     public void go(JFrame frame1) {
         frame = frame1;
-        frame.setTitle("Zatwierdzanie użytkownika");
+        frame.setTitle("Zarządzanie przedmiotami");
         frame.setContentPane(this.ZarządzajPrzedmiotami);
         zaladujZajecia();
         frame.pack();

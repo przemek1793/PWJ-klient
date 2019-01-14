@@ -71,11 +71,9 @@ public class PlanLekcji {
     private JButton Drukuj;
     static private JFrame frame;
     public Socket socket;
-    private String typ;
     private HashMap componentMap;
 
     public PlanLekcji(Socket s, String typ) {
-        this.typ=typ;
         socket=s;
         Wstecz.addActionListener(new ActionListener() {
             @Override

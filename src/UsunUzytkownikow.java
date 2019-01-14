@@ -59,7 +59,7 @@ public class UsunUzytkownikow {
 
     public void go(JFrame frame1) {
         frame = frame1;
-        frame.setTitle("Zatwierdzanie użytkownika");
+        frame.setTitle("Usuwanie użytkownika");
         frame.setContentPane(this.UsunUzytkownikow);
         zaladujUzytkownikow();
         frame.pack();

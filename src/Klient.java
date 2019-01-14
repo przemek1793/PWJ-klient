@@ -9,7 +9,7 @@ public class Klient
     {
         try
         {
-            Socket s = new Socket("192.168.0.13",4255);
+            Socket s = new Socket("192.168.0.15",4255);
             BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream()));
             String ip = in.readLine();
             if (ip.equals("Brak serwerów"))
